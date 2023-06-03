@@ -1,0 +1,56 @@
+ .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    box-shadow: 0  3px 6px 0 #555;
+ }
+
+ .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .srch{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 10px;
+    background-color: white;
+    border-radius: 6px;
+    margin-left: 20px;
+    width: 50%;
+    align-items: center;
+}
+
+.srch-inpt{
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    
+
+}
+
+.srch-icon{
+  width: 32px;
+  height: 32px;
+  color: black;
+}
+
+.tempcont{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   padding: 30px;
+   gap: 25px;
+   justify-content: space-evenly;
+   cursor: pointer;
+}
